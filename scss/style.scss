@@ -1,0 +1,369 @@
+@use './common';
+@use './variables.scss' as c;
+@import './reset';
+
+body {
+  max-width: 640px;
+}
+
+// header
+
+header {
+  @include common.flexbox($jc:space-between);
+  text-align: center;
+  height: 50px;
+  line-height: 1em;
+  padding: 0 10px;
+  .header-alarm {
+    position: relative;
+    margin-right: auto;
+    margin-top: 1px;
+    @include common.alarmBadge($right:0);
+  }
+  .musinsa-logo {
+    margin: 0 auto;
+  }
+  .header-options {
+    @include common.flexFix();
+    .header-like,
+    .header-cart {
+      display: inline-block;
+      position: relative;
+      margin-left: 5px;
+    }
+  }
+}
+
+
+// Main
+
+// Visual Banner
+
+.visual-banner-container {
+  .slot img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .slot-info-wrapper {
+    @include common.flexbox($jc:space-between, $ai: start);
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: c.$white;
+    padding: 40px 25px 70px;
+    font-weight: 500;
+    .slot-desc-type {
+      font-size: 15px;
+      text-transform: capitalize;
+      font-weight: inherit;
+    }
+    .slot-desc {
+      font-size: 30px;
+      font-weight: inherit;
+      line-height: 1.3em;
+      word-break: keep-all;
+      .slot-sub-desc {
+        display: block;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .visual-pagination.swiper-pagination-horizontal {
+    bottom: 24px;
+    .swiper-pagination-bullet {
+      background-color: c.$white;
+      opacity: 0.5;
+      vertical-align: middle;
+
+      &.swiper-pagination-bullet-active {
+        opacity: 1;
+      }
+
+      &:not(.swiper-pagination-bullet-active) {
+        &:first-child,
+        &:last-child {
+          width: 2px;
+          height: 2px;
+        }
+      }
+      &:nth-child(even) {
+        width: 4px;
+        height: 4px;
+      }
+    }
+  }
+}
+
+.products-container{
+  padding: 30px 0 20px;
+  .filter-container + .sub-tabsWrapper{
+    + .products-wrapper:not(.codi-wrapper) .item-box{
+      &:nth-child(-n + 2) {
+        width: calc((100% / 2) - 3px);
+        &:not(:first-child) {
+          margin-left: 3px;
+        }
+        &:before {
+          background-color: c.$black;
+        }
+      }
+    }
+  }
+}
+
+// Tabs
+.tabs-wrapper {
+  @include common.flexbox();
+  font-size: 13px;
+  margin: 0 common.$fixedGap common.$fixedGap;
+  border-radius: 6px;
+  background-color: c.$gray-245;
+  .tab-item {
+    width: 100%;
+    flex: 1 1 auto;
+  }
+  .tab-item .btn-tab {
+    width: inherit;
+    height: inherit;
+    color: c.$gray-170;
+    padding: 10px;
+    transition: background-color 0.4s, color 0.4s;
+    border: 1px solid transparent;
+    &.active {
+      background-color: c.$white;
+      color: c.$black;
+      border: 1px solid c.$gray-238;
+      border-radius: 4px;
+    }
+  }
+}
+
+.sub-tabsWrapper {
+  @include common.flexbox(flex-start,flex-end);
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  margin: 10px auto;
+  -ms-overflow-style: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .tab-item {
+    @include common.flexFix();
+    border-radius: 4px;
+    margin-right: 8px;
+    border: 1px solid c.$gray-238;
+    transition: border 0.3s;
+    overflow: hidden;
+    &:first-child {
+      margin-left: common.$fixedGap;
+    }
+    &.active {
+      border: 1px solid c.$black;
+      .btn-tab {
+        color: c.$black;
+      }
+    }
+    .btn-tab {
+      font-size: 14px;
+      padding: 4px 10px;
+      line-height: 1.5em;
+      color: c.$gray-238;
+    }
+  }
+}
+
+// Filter
+
+.filter-container {
+  display: none;
+  margin: 0 common.$fixedGap;
+  &.active {
+    @include common.flexbox($jc:space-between);
+  }
+  .filter-nav {
+    flex: 0 1 auto;
+    .filter-title {
+      display: inline-block;
+      font-size: 18px;
+      margin-right: 6px;
+    }
+    .filter-sub-direction {
+      position: relative;
+      font-size: 12px;
+      color: c.$gray-119;
+      vertical-align: text-top;
+      &:after {
+        position: absolute;
+        content: url('../assets/images/icons/ic-right.svg');
+        margin-left: 2px;
+        top: 0;
+      }
+    }
+  }
+  .filter-option {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.9em;
+    > * {
+      vertical-align: middle;
+    }
+  }
+
+}
+
+// Products - Ranking
+
+.products-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: common.$fixedGap;
+  counter-reset: number;
+  .item-box {
+    @include common.flexbox($ai:flex-start,$jc:space-between);
+    flex-direction: column;
+    position: relative;
+    flex: 1 1 auto;
+    width: calc((100% / 3) - 6px);
+    margin-bottom: 20px;
+
+    .item-price .price {
+      font-size: 15px;
+    }
+
+    // 세번째 요소와 그 바로 옆 .item-box에 적용
+    &:nth-child(3n),
+    &:nth-child(3n) + .item-box {
+      margin-right: 3px;
+    }
+  }
+
+  &:not(.codi-wrapper) .item-box{
+    @include common.flexbox($ai:flex-start,$jc:space-between);
+    @include common.counterIncrecement(number,c.$gray-170);
+  }
+
+  .item-box img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .item-box .item-desc {
+    width: 100%;
+    min-height: 47px;
+    font-size: 12px;
+    .item-title {
+      display: block;
+      line-height: 1.8em;
+      color: c.$gray-119;
+    }
+    .item-price {
+      font-size: 1.1em;
+      font-weight: 500;
+    }
+  }
+}
+
+// Products - Ranking
+
+.products-wrapper.codi-wrapper{
+  .item-box{
+    width: calc((100% / 2) - 6px);
+    margin-right: 3px;
+    margin-bottom: 0;
+  }
+
+  .item-box.has-thumbnail{
+    margin-bottom: 8px;
+    .item-desc{
+      display: table;
+      img{
+        display: table-cell;
+        float:left;
+        width: 45px;
+        height: 54px;
+        margin-right: 10px;
+        margin-bottom: 0;
+      }
+      .item-title{
+        margin-top: 0.5em;
+      }
+    }
+  }
+  .item-box.has-video{
+    @include common.videoBadge($right:10px);
+  }
+
+  .percent {
+    float: none;
+    vertical-align: middle;
+  }
+}
+
+
+// Banners
+
+.banners-container {
+  width: calc(100% - 30px);
+  height: 106px;
+  margin: 40px 0 60px;
+  .banner-wrapper {
+    .swiper-slide {
+      @include common.flexbox($ai:initial, $jc:space-around);
+      background-color: c.$gray-249;
+      border-radius: 6px;
+      height: 100%;
+      max-height: 90px;
+      overflow: hidden;
+      img {
+        width: 35vw;
+        height: auto;
+      }
+      p {
+        vertical-align: middle;
+        padding: 5px 15px;
+        color: c.$black;
+        font-weight: 500;
+        font-size: 0.9em;
+        line-height: 1.35em;
+        word-break: keep-all;
+        align-self: center;
+        strong {
+          color: c.$white;
+          span {
+            font-size: 0.8em;
+            opacity: 0.65;
+          }
+        }
+        .date {
+          display: block;
+          font-size: 12px;
+          color: c.$gray-119;
+        }
+      }
+    }
+
+    .swiper-slide.right {
+      background-color: c.$gray-79;
+      img {
+        order: 1;
+      }
+    }
+  }
+
+  .swiper-pagination.banners-pagination {
+    bottom: -4px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+  }
+  .swiper-pagination-bullet-active {
+    background: c.$black;
+  }
+}

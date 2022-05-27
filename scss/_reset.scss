@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+html, body, div, span, object, p, a, address, em, img, strong, tt, i, input, dl, dt, dd, ol, ul, li,
+fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,figcaption,
+footer,header,menu,nav,section,summary,time,mark,audio,video,button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5{
+   margin: 0;
+}
+ul, ol {
+   list-style: none;
+}
+a {
+   text-decoration: none;
+}
+
+img{
+   font-size: 0;
+}
+
+button {
+   border: none;
+   padding: 0px 0px;
+   cursor: pointer;
+   background-color: initial;
+ }

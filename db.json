@@ -1,0 +1,685 @@
+{
+  "visualBanners": [
+    {
+      "id": 1,
+      "type": "showcase",
+      "title": "쿠어 21 S/S <br /> 신상품 한정 발매",
+      "description": "신상품 증정 이벤트",
+      "imageUrl": "https://image.msscdn.net/musinsaUI/homework/banner/img1.jpg"
+    },
+    {
+      "id": 2,
+      "type": "showcase",
+      "title": "인사일런스 우먼 <br /> 프로젝트 성수",
+      "description": "성수 티셔츠 선발매 및 21 S/S 최대 15% 할인",
+      "imageUrl": "https://image.msscdn.net/musinsaUI/homework/banner/img2.jpg"
+    },
+    {
+      "id": 3,
+      "type": "open",
+      "title": "BOUTIQUE <br /> Grand Open",
+      "description": "무신사가 선보이는 럭셔리 편집숍 오픈 기념 이벤트",
+      "imageUrl": "https://image.msscdn.net/musinsaUI/homework/banner/img3.jpg"
+    }
+  ],
+  "tabs": [
+    {
+      "title": "랭킹",
+      "subTabs": [
+        [
+          "전체",
+          "상의",
+          "아우터",
+          "바지",
+          "가방",
+          "신발",
+          "스니커즈",
+          "양말",
+          "모자",
+          "레그웨어"
+        ]
+      ],
+      "productsBannersIndex": [true,true,true,true,false],
+      "products": [
+        [
+          {
+            "title": "예일",
+            "price": "55,200원",
+            "salePercent": "20%",
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img1.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "엠엠지엘",
+            "price": "269,000원",
+            "salePercent": "20%",
+            "hasCoupon": false,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img2.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "알파 인더스트리",
+            "price": "209,300원",
+            "salePercent": "20%",
+            "hasCoupon": false,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img3.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "커버낫",
+            "price": "77,400원",
+            "salePercent": "20%",
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img4.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "코치넬레",
+            "price": "530,000원",
+            "salePercent": null,
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img5.jpg",
+            "thumbnailPath": null
+          }
+        ],
+        [
+          {
+            "title": "예일",
+            "price": "55,200원",
+            "salePercent": "20%",
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img1.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "엠엠지엘",
+            "price": "269,000원",
+            "salePercent": "20%",
+            "hasCoupon": false,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img2.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "알파 인더스트리",
+            "price": "209,300원",
+            "salePercent": "20%",
+            "hasCoupon": false,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img3.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "커버낫",
+            "price": "77,400원",
+            "salePercent": "20%",
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img4.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "코치넬레",
+            "price": "530,000원",
+            "salePercent": null,
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img5.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "스톤아일랜드",
+            "price": "548,000원",
+            "salePercent": null,
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img6.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "토피",
+            "price": "39,000원",
+            "salePercent": "20%",
+            "hasCoupon": false,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img7.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "엄브로",
+            "price": "149,000원",
+            "salePercent": null,
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img8.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "스톤아일랜드",
+            "price": "548,000원",
+            "salePercent": null,
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img6.jpg",
+            "thumbnailPath": null
+          }
+        ],
+        [
+          {
+            "title": "예일",
+            "price": "55,200원",
+            "salePercent": "20%",
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img1.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "엠엠지엘",
+            "price": "269,000원",
+            "salePercent": "20%",
+            "hasCoupon": false,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img2.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "알파 인더스트리",
+            "price": "209,300원",
+            "salePercent": "20%",
+            "hasCoupon": false,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img3.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "커버낫",
+            "price": "77,400원",
+            "salePercent": "20%",
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img4.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "코치넬레",
+            "price": "530,000원",
+            "salePercent": null,
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img5.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "스톤아일랜드",
+            "price": "548,000원",
+            "salePercent": null,
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img6.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "토피",
+            "price": "39,000원",
+            "salePercent": "20%",
+            "hasCoupon": false,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img7.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "엄브로",
+            "price": "149,000원",
+            "salePercent": null,
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img8.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "스톤아일랜드",
+            "price": "548,000원",
+            "salePercent": null,
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img6.jpg",
+            "thumbnailPath": null
+          }
+        ],
+        [
+          {
+            "title": "예일",
+            "price": "55,200원",
+            "salePercent": "20%",
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img1.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "엠엠지엘",
+            "price": "269,000원",
+            "salePercent": "20%",
+            "hasCoupon": false,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img2.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "알파 인더스트리",
+            "price": "209,300원",
+            "salePercent": "20%",
+            "hasCoupon": false,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img3.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "커버낫",
+            "price": "77,400원",
+            "salePercent": "20%",
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img4.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "코치넬레",
+            "price": "530,000원",
+            "salePercent": null,
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img5.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "스톤아일랜드",
+            "price": "548,000원",
+            "salePercent": null,
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img6.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "토피",
+            "price": "39,000원",
+            "salePercent": "20%",
+            "hasCoupon": false,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img7.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "엄브로",
+            "price": "149,000원",
+            "salePercent": null,
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img8.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "스톤아일랜드",
+            "price": "548,000원",
+            "salePercent": null,
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img6.jpg",
+            "thumbnailPath": null
+          }
+        ],
+        [
+          {
+            "title": "예일",
+            "price": "55,200원",
+            "salePercent": "20%",
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img1.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "엠엠지엘",
+            "price": "269,000원",
+            "salePercent": "20%",
+            "hasCoupon": false,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img2.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "알파 인더스트리",
+            "price": "209,300원",
+            "salePercent": "20%",
+            "hasCoupon": false,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img3.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "커버낫",
+            "price": "77,400원",
+            "salePercent": "20%",
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img4.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "코치넬레",
+            "price": "530,000원",
+            "salePercent": null,
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img5.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "스톤아일랜드",
+            "price": "548,000원",
+            "salePercent": null,
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img6.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "토피",
+            "price": "39,000원",
+            "salePercent": "20%",
+            "hasCoupon": false,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img7.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "엄브로",
+            "price": "149,000원",
+            "salePercent": null,
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img8.jpg",
+            "thumbnailPath": null
+          },
+          {
+            "title": "스톤아일랜드",
+            "price": "548,000원",
+            "salePercent": null,
+            "hasCoupon": true,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img6.jpg",
+            "thumbnailPath": null
+          }
+        ]
+      ],
+      "banners": [
+        {
+          "desc": "손 피부를 보호해줄 핸드크림 추천 랭킹",
+          "imgUrl": "https://image.msscdn.net/musinsaUI/homework/banner/sub1.jpg",
+          "imgPosition": "left"
+        },
+        {
+          "desc": "<strong>아디다스 운동화 4,900원 <br/> <span>신규 회원 가입 이벤트 참여하기</span></strong>",
+          "imgUrl": "https://image.msscdn.net/musinsaUI/homework/banner/sub3.png",
+          "imgPosition": "right"
+        },
+        {
+          "desc": "마르지엘라 서머 페스티벌 컬렉션 <span class='date'>6.28 - 7.23</span>",
+          "imgUrl": "https://image.msscdn.net/musinsaUI/homework/banner/sub2.jpg",
+          "imgPosition": "left"
+        }
+      ]
+    },
+    {
+      "title": "코디",
+      "subTabs": [
+        [
+          "무신사 스탠다드",
+          "나이키",
+          "247 서울",
+          "비슬로우",
+          "아크네",
+          "tabText",
+          "tabText",
+          "tabText",
+          "tabText",
+          "tabText"
+        ],
+        [
+          "스포츠&아웃도어",
+          "포멀&어반 캐주얼",
+          "뷰티",
+          "하이 패션",
+          "tabText",
+          "tabText",
+          "tabText",
+          "tabText",
+          "tabText"
+        ],
+        [
+          "스포츠&아웃도어",
+          "포멀&어반 캐주얼",
+          "뷰티",
+          "하이 패션",
+          "tabText",
+          "tabText",
+          "tabText",
+          "tabText",
+          "tabText"
+        ]
+      ],
+      "productsBannersIndex": [true,true,true],
+      "products": [
+        [
+          {
+            "title": "무신사 스탠다드",
+            "price": "45,900원",
+            "salePercent": "40%",
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/coordi/img1.jpg",
+            "thumbnailPath": "https://image.msscdn.net/musinsaUI/homework/coordi/img1.jpg",
+            "hasVideo": false
+          },
+          {
+            "title": "무신사 스탠다드",
+            "price": "45,900원",
+            "salePercent": "40%",
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/coordi/img2.jpg",
+            "thumbnailPath": "https://image.msscdn.net/musinsaUI/homework/coordi/img2.jpg",
+            "hasVideo": false
+          },
+          {
+            "title": "무신사 스탠다드",
+            "price": "45,900원",
+            "salePercent": "40%",
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/coordi/img3.jpg",
+            "thumbnailPath": "https://image.msscdn.net/musinsaUI/homework/coordi/img3.jpg",
+            "hasVideo": false
+          },
+          {
+            "title": "무신사 스탠다드",
+            "price": "45,900원",
+            "salePercent": "40%",
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/coordi/img4.jpg",
+            "thumbnailPath": "https://image.msscdn.net/musinsaUI/homework/coordi/img4.jpg",
+            "hasVideo": false
+          }
+        ],
+        [
+          {
+            "title": "",
+            "price": "",
+            "salePercent": null,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/coordi/img5.jpg",
+            "thumbnailPath": null,
+            "hasVideo": false
+          },
+          {
+            "title": "",
+            "price": "",
+            "salePercent": null,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/coordi/img6.jpg",
+            "thumbnailPath": null,
+            "hasVideo": true
+          },
+          {
+            "title": "",
+            "price": "",
+            "salePercent": null,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/coordi/img7.jpg",
+            "thumbnailPath": null,
+            "hasVideo": false
+          },
+          {
+            "title": "",
+            "price": "",
+            "salePercent": null,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/coordi/img8.jpg",
+            "thumbnailPath": null,
+            "hasVideo": true
+          },
+          {
+            "title": "",
+            "price": "",
+            "salePercent": null,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/coordi/img5.jpg",
+            "thumbnailPath": null,
+            "hasVideo": false
+          },
+          {
+            "title": "",
+            "price": "",
+            "salePercent": null,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/coordi/img1.jpg",
+            "thumbnailPath": null,
+            "hasVideo": true
+          },
+          {
+            "title": "",
+            "price": "",
+            "salePercent": null,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/coordi/img2.jpg",
+            "thumbnailPath": null,
+            "hasVideo": false
+          },
+          {
+            "title": "",
+            "price": "",
+            "salePercent": null,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/coordi/img3.jpg",
+            "thumbnailPath": null,
+            "hasVideo": true
+          }
+        ],
+        [
+          {
+            "title": "",
+            "price": "",
+            "salePercent": null,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/coordi/img5.jpg",
+            "thumbnailPath": null,
+            "hasVideo": false
+          },
+          {
+            "title": "",
+            "price": "",
+            "salePercent": null,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/coordi/img6.jpg",
+            "thumbnailPath": null,
+            "hasVideo": true
+          },
+          {
+            "title": "",
+            "price": "",
+            "salePercent": null,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/coordi/img7.jpg",
+            "thumbnailPath": null,
+            "hasVideo": false
+          },
+          {
+            "title": "",
+            "price": "",
+            "salePercent": null,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/coordi/img8.jpg",
+            "thumbnailPath": null,
+            "hasVideo": true
+          },
+          {
+            "title": "",
+            "price": "",
+            "salePercent": null,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/coordi/img5.jpg",
+            "thumbnailPath": null,
+            "hasVideo": false
+          },
+          {
+            "title": "",
+            "price": "",
+            "salePercent": null,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/coordi/img1.jpg",
+            "thumbnailPath": null,
+            "hasVideo": true
+          },
+          {
+            "title": "",
+            "price": "",
+            "salePercent": null,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/coordi/img2.jpg",
+            "thumbnailPath": null,
+            "hasVideo": false
+          },
+          {
+            "title": "",
+            "price": "",
+            "salePercent": null,
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/coordi/img3.jpg",
+            "thumbnailPath": null,
+            "hasVideo": true
+          }
+        ]
+      ],
+      "banners": [
+          {
+            "desc": "<strong>아디다스 운동화 4,900원 <br/> <span>신규 회원 가입 이벤트 참여하기</span></strong>",
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/banner/sub2.jpg",
+          "imgPosition": "right"
+          },
+          {
+            "desc": "손 피부를 보호해줄 핸드크림 추천 랭킹",
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/banner/sub1.jpg",
+          "imgPosition": "left"
+
+          },
+          {
+            "desc": "마르지엘라 서머 페스티벌 컬렉션 <span class='date'>6.28 - 7.23</span>",
+            "imgUrl": "https://image.msscdn.net/musinsaUI/homework/banner/sub3.png",
+            "imgPosition": "left"
+          }
+      ]
+    },
+    {
+      "title": "업데이트",
+      "subTabs": [
+        [
+          "MD추천",
+          "재입고",
+          "세일 소식",
+          "인기 상품",
+          "신상품",
+          "이벤트",
+          "입점"
+        ]
+      ],
+      "productsBannersIndex": [false,true,false,false],
+      "products" : [
+        {
+          "title": "스웨트셔츠 & 슬랙스 신상품 발매",
+          "subTitle": "마땡킴",
+          "price": "",
+          "salePercent": null,
+          "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img2.jpg",
+          "thumbnailPath": null,
+          "hasVideo": false,
+          "comments": 133
+        },
+        {
+          "title": "이벳필드 협업 컬렉션 워셔블 니트 한정 발매",
+          "subTitle": "니티드 외",
+          "price": "",
+          "salePercent": null,
+          "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img3.jpg",
+          "thumbnailPath": null,
+          "hasVideo": false,
+          "comments": 133
+        },
+        {
+          "title": "스웨트셔츠 & 슬랙스 신상품 발매",
+          "subTitle": "마땡킴",
+          "price": "",
+          "salePercent": null,
+          "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img4.jpg",
+          "thumbnailPath": null,
+          "hasVideo": false,
+          "comments": 133
+        },
+        {
+          "title": "뉴 체리라인 스웨트셔츠 & 액세서리 신상품 선발매",
+          "subTitle": "키르시",
+          "price": "",
+          "salePercent": null,
+          "imgUrl": "https://image.msscdn.net/musinsaUI/homework/goods/img5.jpg",
+          "thumbnailPath": null,
+          "hasVideo": false,
+          "comments": 133
+        }
+      ]
+    }
+  ]
+}

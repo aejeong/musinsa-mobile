@@ -1,0 +1,108 @@
+@use './variables.scss' as c;
+
+$fixedGap : 15px;
+
+// mixin layout
+
+@mixin flexbox($jc: center, $ai: center) {
+  display: flex;
+  align-items: $ai;
+  justify-content: $jc;
+}
+
+@mixin flexFix($ratio: auto){
+  flex: 0 0 $ratio;
+}
+
+@mixin flexRel($ratio: auto){
+  flex: 1 1 $ratio;
+}
+
+// mixin UI
+
+@mixin alarmBadge($left:auto, $right:auto){
+  &:before{
+    content:'';
+    position: absolute;
+    width: 4px;
+    height: 4px; 
+    top:0;
+    left: $left;
+    right: $right;
+    border-radius: 50%;
+    background-color: c.$count-badge-bg;
+  }
+}
+
+@mixin videoBadge($left:auto, $right:auto) {
+  &:before{
+    content: url('../assets/images/icons/ic-autoplay.svg');
+    position: absolute;
+    top:12px;
+    left: $left;
+    right: $right;
+  }
+}
+
+@mixin counterIncrecement($variable, $color:c.$black){
+  &:before{
+    position: absolute;
+    counter-increment: $variable;
+    content: counter($variable);
+    background-color: $color;
+    text-align: center;
+    min-width: 24px;
+    height: 24px;
+    color: c.$white;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 26px;
+  }
+}
+
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  overflow: hidden;
+}
+
+.count-badge:not(:empty){
+    display: inline-block;
+    position: absolute;
+    background-color: c.$count-badge-bg;
+    color: c.$white;
+    font-size: 11px;
+    line-height: 1.5em;
+    border-radius: 9px;
+    padding: 1.5px;
+    max-width: 30px;
+    min-width: 18px;
+    min-height: 18px;
+    bottom:0;
+    right: -2px;
+}
+
+.has-coupon{
+  float: right;
+  background-color: c.$coupon-bg;
+  color: c.$white;
+  font-size: 9px;
+  border-radius: 2px;
+  padding: 2px 3px;
+  word-break: keep-all;
+  margin:0 .3em;
+}
+
+.percent{
+  font-size: 12px;
+  float: right;
+  color: c.$red;
+}
+
+:is(.count-badge,.percent,.has-coupon):empty{
+    display: none;
+}
+

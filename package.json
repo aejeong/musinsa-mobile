@@ -1,0 +1,16 @@
+{
+  "name": "musinsa-mobile",
+  "version": "1.0.0",
+  "description": "MUSINSA UI DEVELOPING",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "server": "node ./node_modules/json-server/lib/cli/bin.js --watch ./server/db.json -c ./server/json-server.json"
+  },
+  "author": "ANNIE",
+  "license": "ISC"
+}
